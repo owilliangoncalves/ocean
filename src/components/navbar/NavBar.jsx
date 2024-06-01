@@ -8,7 +8,7 @@ import FiapLogo from '/img/fiapLogo.svg';
 
 export default function NavBar() {
   return (
-    <Navbar shouldHideOnScroll>
+    <Navbar shouldHideOnScroll className='bg-transparent'>
       <NavbarBrand>
         <img src={FiapLogo} alt='' />
       </NavbarBrand>
