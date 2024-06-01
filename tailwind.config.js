@@ -9,7 +9,13 @@ export default {
   ],
   theme: {
     extend: {},
+    colors: {
+      verdePrimario: '#3CC7DA',
+      verdeSecundario: '#0A2A33',
+      branco: '#fff',
+    },
   },
+
   darkMode: 'class',
-  plugins: [nextui()],
+  plugins: [nextui({ addCommonColors: true })],
 };
