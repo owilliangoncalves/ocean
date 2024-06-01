@@ -3,7 +3,6 @@ import {
   NavbarBrand,
   NavbarContent,
   NavbarItem,
-  Link,
 } from '@nextui-org/react';
 import FiapLogo from '/img/fiapLogo.svg';
 
