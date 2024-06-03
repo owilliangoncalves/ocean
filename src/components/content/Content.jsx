@@ -1,8 +1,14 @@
 import { Card, CardHeader, Image } from '@nextui-org/react';
+import { Helmet } from 'react-helmet';
+import { Link } from 'react-router-dom';
 
 export default function App() {
   return (
     <div className='  gap-1 grid grid-cols-12 grid-rows-none px-0'>
+      <Helmet>
+        <title>Global Solution - OCEAN</title>
+        <meta name='description' content='Página inicial da Global Solution' />
+      </Helmet>
       <Card className='col-span-12 sm:col-span-4 h-[300px] ' radius='none'>
         <CardHeader className='absolute z-10 top-1 flex-col !items-start'>
           <p className='text-tiny text-white/60 uppercase font-bold'>Desafio</p>
@@ -10,14 +16,17 @@ export default function App() {
             Veja o desafio proposto
           </h4>
         </CardHeader>
-        <Image
-          removeWrapper
-          radius='none'
-          alt='Turtle background'
-          className='z-0 w-full h-full object-cover'
-          src='/img/turtle.jpg'
-        />
+        <Link to={'/desafio'}>
+          <Image
+            removeWrapper
+            radius='none'
+            alt='Turtle background'
+            className='z-0 w-full h-full object-cover'
+            src='/img/turtle.jpg'
+          />
+        </Link>
       </Card>
+
       <Card className='col-span-12 sm:col-span-4 h-[300px]' radius='none'>
         <CardHeader className='absolute z-10 top-1 flex-col !items-start'>
           <p className='text-tiny text-white/60 uppercase font-bold'>Estudos</p>
@@ -25,13 +34,15 @@ export default function App() {
             Veja as referências
           </h4>
         </CardHeader>
-        <Image
-          removeWrapper
-          radius='none'
-          alt='Pessoas segurando papeis'
-          className='z-0 w-full h-full object-cover'
-          src='/img/referencias.jpg'
-        />
+        <Link to={'/estudos'}>
+          <Image
+            removeWrapper
+            radius='none'
+            alt='Pessoas segurando papeis'
+            className='z-0 w-full h-full object-cover'
+            src='/img/referencias.jpg'
+          />
+        </Link>
       </Card>
       <Card className='col-span-12 sm:col-span-4 h-[300px]' radius='none'>
         <CardHeader className='absolute z-10 top-1 flex-col !items-start'>
@@ -42,13 +53,15 @@ export default function App() {
             Entenda mais um pouco o problema
           </h4>
         </CardHeader>
-        <Image
-          removeWrapper
-          radius='none'
-          alt='Garbage Background'
-          className='z-0 w-full h-full object-cover'
-          src='/img/problema.jpg'
-        />
+        <Link to={'/problema'}>
+          <Image
+            removeWrapper
+            radius='none'
+            alt='Garbage Background'
+            className='z-0 w-full h-full object-cover'
+            src='/img/problema.jpg'
+          />
+        </Link>
       </Card>
 
       <Card
@@ -62,13 +75,15 @@ export default function App() {
             Entenda um pouco mais da solução proposta
           </h4>
         </CardHeader>
-        <Image
-          radius=''
-          removeWrapper
-          alt='Relaxing app background'
-          className='z-0 w-full h-[500]: object-cover'
-          src='/img/solucao.jpg'
-        />
+        <Link to={'/solucao'}>
+          <Image
+            radius=''
+            removeWrapper
+            alt='Relaxing app background'
+            className='z-0 w-full h-[500]: object-cover'
+            src='/img/solucao.jpg'
+          />
+        </Link>
       </Card>
     </div>
   );

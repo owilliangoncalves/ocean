@@ -5,11 +5,32 @@ import App from './App';
 import './index.css';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import ErrorPage from './components/errorPage/ErrorPage';
+import Desafio from './components/content/Desafio';
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <App />,
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: '/desafio',
+    element: <Desafio />,
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: '/estudos',
+    element: <Desafio />,
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: '/problema',
+    element: <Desafio />,
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: '/solucao',
+    element: <Desafio />,
     errorElement: <ErrorPage />,
   },
 ]);
