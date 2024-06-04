@@ -1,5 +1,6 @@
 import NavBar from './components/navbar/NavBar.jsx';
 import Content from './components/content/Content.jsx';
+import Grupo from './grupo/Grupo.jsx';
 
 export function App() {
   return (
@@ -8,6 +9,7 @@ export function App() {
       <NavBar />
       {/* <Header /> */}
       <Content />
+      <Grupo />
     </>
   );
 }
