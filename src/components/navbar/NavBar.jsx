@@ -15,7 +15,7 @@ export default function NavBar() {
       <NavbarContent className='hidden sm:flex gap-4' justify='center'>
         <NavbarItem>
           <a
-            className='text-verdeSecundario p-2 rounded-md hover:bg-verdePrimario transition duration-300 active:bg-verdePrimario'
+            className='text-verdeSecundario p-2 rounded-md hover:bg-verdePrimario transition duration-300 active:bg-verdePrimario uppercase'
             href='/'
           >
             Home
@@ -23,7 +23,7 @@ export default function NavBar() {
         </NavbarItem>
         <NavbarItem>
           <a
-            className='text-verdeSecundario p-2 rounded-md hover:bg-verdePrimario transition duration-300 '
+            className='text-verdeSecundario p-2 rounded-md hover:bg-verdePrimario transition duration-300 uppercase '
             href=''
           >
             Desafio
@@ -31,7 +31,7 @@ export default function NavBar() {
         </NavbarItem>
         <NavbarItem>
           <a
-            className='text-verdeSecundario p-2 rounded-md hover:bg-verdePrimario transition duration-300 '
+            className='text-verdeSecundario p-2 rounded-md hover:bg-verdePrimario transition duration-300 uppercase '
             href=''
           >
             Estudos
@@ -39,7 +39,7 @@ export default function NavBar() {
         </NavbarItem>
         <NavbarItem>
           <a
-            className='text-verdeSecundario p-2 rounded-md hover:bg-verdePrimario transition duration-300 '
+            className='text-verdeSecundario p-2 rounded-md hover:bg-verdePrimario transition duration-300 uppercase'
             href=''
           >
             Problema
@@ -47,7 +47,7 @@ export default function NavBar() {
         </NavbarItem>
         <NavbarItem>
           <a
-            className='text-verdeSecundario p-2 rounded-md hover:bg-verdePrimario transition duration-300 '
+            className='text-verdeSecundario p-2 rounded-md hover:bg-verdePrimario transition duration-300 uppercase'
             href=''
           >
             Solução

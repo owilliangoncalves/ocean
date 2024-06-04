@@ -7,7 +7,7 @@ export default function App() {
     <div className='  gap-1 grid grid-cols-12 grid-rows-none px-0'>
       <Helmet>
         <title>Global Solution - OCEAN</title>
-        <meta name='description' content='Página inicial da Global Solution' />
+        <meta name='descricao' content='Página inicial da Global Solution' />
       </Helmet>
       <Card className='col-span-12 sm:col-span-4 h-[300px] ' radius='none'>
         <CardHeader className='absolute z-10 top-1 flex-col !items-start'>
