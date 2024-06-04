@@ -15,7 +15,7 @@ const Problema = () => {
           content='Entenda um pouco sobre o desafio proposto'
         />
       </Helmet>
-      <div id='tituloProblema'>
+      <div id='titulo_conteudo'>
         <h1>Problema</h1>
       </div>
       
