@@ -16,7 +16,7 @@ export default function NavBar() {
         <NavbarItem>
           <a
             className='text-verdeSecundario p-2 rounded-md hover:bg-verdePrimario transition duration-300 active:bg-verdePrimario'
-            href=''
+            href='/'
           >
             Home
           </a>

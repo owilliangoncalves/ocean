@@ -1,5 +1,3 @@
-import './App.css';
-
 import NavBar from './components/navbar/NavBar.jsx';
 import Content from './components/content/Content.jsx';
 

@@ -1,0 +1,37 @@
+#tituloProblema{
+    height: 85vh;
+    background-image: url(../../../img/problema.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#textoDescricaoProblema{
+    margin: 0px 30px;
+    text-align: justify;
+    display: flex;
+    width: 80%;
+    height: 20%;
+    gap: 20px;
+
+    & h1{
+        font-size: 2rem;
+    }
+    & img{
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+    }
+}
+#conteudoDescricao{
+    margin: 0 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    & h1{
+        font-size: 2rem;
+    }
+}
+.titulo_conteudo{
+    margin: 10px 13%;
+    font-size: 30px;
+}
