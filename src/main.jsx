@@ -5,7 +5,7 @@ import App from './App';
 import './index.css';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import ErrorPage from './components/errorPage/ErrorPage';
-import Desafio from './components/content/Desafio';
+import Problema from './components/problema/Problema';
 
 const router = createBrowserRouter([
   {
@@ -15,22 +15,22 @@ const router = createBrowserRouter([
   },
   {
     path: '/desafio',
-    element: <Desafio />,
+    element: <Problema />,
     errorElement: <ErrorPage />,
   },
   {
     path: '/estudos',
-    element: <Desafio />,
+    element: <Problema />,
     errorElement: <ErrorPage />,
   },
   {
     path: '/problema',
-    element: <Desafio />,
+    element: <Problema />,
     errorElement: <ErrorPage />,
   },
   {
     path: '/solucao',
-    element: <Desafio />,
+    element: <Problema />,
     errorElement: <ErrorPage />,
   },
 ]);
