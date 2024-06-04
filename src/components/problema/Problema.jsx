@@ -35,7 +35,7 @@ destaque na vida humana.</p>
       <div className='text-2xl mb-4'>
         <h2>O Contexto Pós-revolução Industrial</h2>
       </div>
-      <div className='flex flex-rol items-center gap-10'>
+      <div className='flex flex-col md:flex-row items-center gap-10'>
         <div>
           <p>
           Após a revolução industrial ocorrida no séc. XVIII, os níveis de produção de mercadorias aumentaram e, consequentemente, os níveis de consumo também. Isso ocorreu devido a mecanização das indústrias, ou seja, devido a substituição do uso de ferramentas manuais por máquinas. Essa substituição possibilitou a produção de maiores quantidades de mercadorias em um curto espaço de tempo e, também, contribuiu para um rápido crescimento nas taxas de consumo, fruto dos baixos preços oferecidos nas mercadorias. 

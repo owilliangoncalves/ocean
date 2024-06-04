@@ -1,57 +1,11 @@
-#tituloProblema{
-    height: 85vh;
-    background-image: url(../../../img/problema.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-
-    & h1{
-        font-size: 3rem;
-        color: white;
-        letter-spacing: 3px;
-    }
-}
-#textoDescricaoProblema{
-    margin: 0px 30px;
-    text-align: justify;
-    display: flex;
-    justify-content: center;
-    width: 80%;
-    height: 20%;
-    gap: 20px;
-
-    & img{
-        max-width: 600px;
-        height: 300px;
-        object-fit: cover;
-    }
-    & div{
-        max-width: 600px;
-    }
-}
-.conteudoDescricao{
-    margin: 20px 5%;
-    display: flex;
-    flex-direction: column;
-    text-align: justify;
-
-    & p{
-        margin-bottom: 10px;
-    }
-}
-.titulo_conteudo{
-    margin: 10px 0;
-    font-size: 30px;
-}
 .img1{
     height: 300px;
     width: 500px;
 }
-img2{
-    width: 100%;
-    height: 200px;
+@media (max-width: 600px) {
+
+}
+p{
+    text-align: justify;
+    margin-bottom: 10px;
 }
