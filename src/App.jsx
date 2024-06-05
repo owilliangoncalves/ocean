@@ -4,6 +4,7 @@ import Content from './components/content/Content.jsx';
 import Teste from './grupo/Teste.jsx';
 import Footer from './components/footer/Footer.jsx';
 import { Fragment } from 'react';
+import Grupo from './grupo/Grupo.jsx';
 
 export function App() {
   return (
@@ -12,7 +13,7 @@ export function App() {
       <NavBar />
       {/* <Header /> */}
       <Content />
-      <Teste />
+      <Grupo />
       <Footer />
     </Fragment>
   );
