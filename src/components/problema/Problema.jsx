@@ -15,11 +15,11 @@ const Problema = () => {
           content='Entenda um pouco sobre o desafio proposto'
         />
       </Helmet>
-      <div id='titulo_conteudo'>
-        <h1>Problema</h1>
+      <div id='titulo_conteudo' className='bg-image1'>
+          <h1>Problema</h1>
       </div>
       
-      <section className='max-w-4xl mx-auto mt-8'>
+      {/* <section className='max-w-4xl mx-auto mt-8'>
       <div className='text-2xl mb-4'>
         <h2>Papel dos oceanos</h2>
       </div>
@@ -44,7 +44,7 @@ destaque na vida humana.</p>
         </div>
       <img src="../../../img/plastico-mar.jpg" alt="garrafas-na-areia" className='img1' />
       </div>
-      </section>
+      </section> */}
       <section className='max-w-4xl mx-auto mt-8'>
       <div className='text-2xl mb-4'>
         <h2>O Que É Lixo No Mar?</h2>

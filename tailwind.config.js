@@ -8,7 +8,11 @@ export default {
     './node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage:{
+        'image1': "url('/img/problema.jpg')"
+      },
+    },
     colors: {
       verdePrimario: '#3CC7DA',
       verdeSecundario: '#0A2A33',
