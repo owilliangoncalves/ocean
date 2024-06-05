@@ -14,6 +14,10 @@ export default {
       verdeSecundario: '#0A2A33',
       branco: '#fff',
     },
+    container: {
+      center: true,
+      padding: 'auto',
+    },
   },
 
   darkMode: 'class',

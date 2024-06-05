@@ -9,7 +9,7 @@ export default function App() {
         <title>Global Solution - OCEAN</title>
         <meta name='descricao' content='Página inicial da Global Solution' />
       </Helmet>
-      <Card className='col-span-12 sm:col-span-4 h-[300px] ' radius='none'>
+      <Card className='col-span-12 sm:col-span-4 h-[300px]' radius='none'>
         <CardHeader className='absolute z-10 top-1 flex-col !items-start'>
           <p className='text-tiny text-white/60 uppercase font-bold'>Desafio</p>
           <h4 className='text-white font-medium text-large'>
@@ -20,7 +20,7 @@ export default function App() {
           <Image
             removeWrapper
             radius='none'
-            alt='Turtle background'
+            alt='Pessoas segurando papeis'
             className='z-0 w-full h-full object-cover'
             src='/img/turtle.jpg'
           />
