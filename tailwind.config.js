@@ -9,8 +9,8 @@ export default {
   ],
   theme: {
     extend: {
-      backgroundImage:{
-        'image1': "url('/img/problema.jpg')"
+      backgroundImage: {
+        image1: "url('/img/problema.jpg')",
       },
     },
     colors: {
