@@ -1,0 +1,26 @@
+#titulo_conteudo{
+    height: 85vh;
+    /* background-image: url(../../../img/problema.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    
+    & h1{
+        font-size: 3rem;
+        color: white;
+        letter-spacing: 3px;
+    }
+}
+.img1{
+    height: 300px;
+    width: 500px;
+}
+
+p{
+    text-align: justify;
+    margin-bottom: 10px;
+}
