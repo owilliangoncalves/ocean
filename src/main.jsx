@@ -6,9 +6,12 @@ import './index.css';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import ErrorPage from './routes/errorPage/ErrorPage';
 import Problema from './components/problema/Problema';
+
 import Solucao from './routes/solucao/Solucao';
 import Home from './routes/Home';
 import Estudos from './routes/Estudos';
+import Desafio from './components/desafio/Desafio'
+
 
 const router = createBrowserRouter([
   {
@@ -35,6 +38,7 @@ const router = createBrowserRouter([
       element: <Solucao />,
       errorElement: <ErrorPage />,
     },]
+
   },
 ]);
 
