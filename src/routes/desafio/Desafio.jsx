@@ -20,7 +20,7 @@ const Desafio = () => {
 
         <section className='mx-auto px-4 py-4 max-w-screen-xl'>
           <div>
-            <h2 className='text-5xl mb-7 uppercase'>Papel dos oceanos</h2>
+            <h2 className='text-5xl mb-2 uppercase'>Papel dos oceanos</h2>
           </div>
           <p>
             Desde o início da nossa história, os oceanos possuem papel de
@@ -57,7 +57,7 @@ const Desafio = () => {
 
         <section className='mx-auto px-4 py-4 max-w-screen-xl'>
           <div className='text-2xl mb-4'>
-            <h2 className='text-3xl mb-7 uppercase'>
+            <h2 className='text-3xl mb-2 uppercase'>
               O Contexto Pós-revolução Industrial
             </h2>
           </div>
@@ -95,7 +95,7 @@ const Desafio = () => {
         </section>
         <section className='mx-auto px-4 py-4 max-w-screen-xl'>
           <div className='text-2xl mb-4'>
-            <h2 className='text-3xl mb-7 uppercase'>
+            <h2 className='text-3xl mb-2 uppercase'>
               O Problema de lixo marinho
             </h2>
           </div>
