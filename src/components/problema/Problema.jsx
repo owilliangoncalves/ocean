@@ -6,7 +6,6 @@ import './Problema.css';
 const Problema = () => {
   return (
     <div>
-      <NavBar />
       <Helmet>
         <title>OCEAN - Problema</title>
         <meta
