@@ -5,11 +5,14 @@
 .bg-image {
   filter: blur(2px);
 }
-.bg-image0{
-  @apply bg-image2
+.bg-image0 {
+  @apply bg-image2;
 }
-.bg-image2{
+.bg-image2 {
   filter: blur(2px);
+}
+.titulo {
+  @apply text-white text-6xl uppercase font-light tracking-widest;
 }
 
 @tailwind components;

@@ -16,7 +16,7 @@ const Problema = () => {
       <div className='relative h-[85vh]'>
         <div className='absolute inset-0 bg-image bg-cover backdrop-blur-2xl'></div>
         <div className='relative z-10 flex items-center justify-center h-full'>
-          <h1 className='text-white text-4xl uppercase bold'>Problema</h1>
+          <h1 className='titulo'>Problema</h1>
         </div>
       </div>
 
@@ -37,14 +37,14 @@ const Problema = () => {
           ação de microrganismos.(MMA,2019;FURG,2019).
         </p>
         <img
-          src='../../../img/desembogue-de-rio.jpg'
+          src='/img/desembogue-de-rio.jpg'
           alt=''
           className='object-cover w-full h-[470px]'
         />
       </section>
       <section className='mx-auto px-4 py-4 max-w-screen-xl'>
-        <div className='text-2xl mb-4'>
-          <h2>Para onde o lixo vai?</h2>
+        <div>
+          <h2 className='text-3xl mb-4'>Para onde o lixo vai?</h2>
         </div>
         <p>
           Através da dispersão por ventos e chuvas, o resíduo produzido e mal
