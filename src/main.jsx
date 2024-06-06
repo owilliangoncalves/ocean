@@ -7,6 +7,7 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import ErrorPage from './components/errorPage/ErrorPage';
 import Problema from './components/problema/Problema';
 import Solucao from './components/solucao/Solucao';
+import Desafio from './components/desafio/Desafio'
 
 const router = createBrowserRouter([
   {
@@ -16,7 +17,7 @@ const router = createBrowserRouter([
   },
   {
     path: '/desafio',
-    element: <Problema />,
+    element: <Desafio />,
     errorElement: <ErrorPage />,
   },
   {

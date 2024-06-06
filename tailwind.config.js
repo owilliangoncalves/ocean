@@ -11,6 +11,7 @@ export default {
     extend: {
       backgroundImage: {
         image1: "url('/img/problema.jpg')",
+        image2:"url('/img/turtle.jpg')"
       },
     },
     colors: {

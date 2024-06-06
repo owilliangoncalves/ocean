@@ -3,7 +3,13 @@
   @apply bg-image1;
 }
 .bg-image {
-  filter: blur(4px);
+  filter: blur(2px);
+}
+.bg-image0{
+  @apply bg-image2
+}
+.bg-image2{
+  filter: blur(2px);
 }
 
 @tailwind components;
