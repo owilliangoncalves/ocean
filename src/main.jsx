@@ -6,6 +6,7 @@ import './index.css';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import ErrorPage from './components/errorPage/ErrorPage';
 import Problema from './components/problema/Problema';
+import Solucao from './components/solucao/Solucao';
 
 const router = createBrowserRouter([
   {
@@ -30,7 +31,7 @@ const router = createBrowserRouter([
   },
   {
     path: '/solucao',
-    element: <Problema />,
+    element: <Solucao />,
     errorElement: <ErrorPage />,
   },
 ]);
