@@ -1,12 +1,11 @@
 import { Helmet } from 'react-helmet';
-import NavBar from '../navbar/NavBar';
+import { Link } from 'react-router-dom';
 // import {Image} from "@nextui-org/image";
 
 
 const Desafio = () => {
     return(
         <div>
-            <NavBar />
       <Helmet>
         <title>OCEAN - Desafio</title>
         <meta
@@ -36,15 +35,21 @@ destaque na vida humana.</p>
       <div className='text-2xl mb-4'>
           <h2>O Contexto Pós-revolução Industrial</h2>
         </div>
-        <div className='gap-10 flex flex-col md:flex-row'>
+        <div className='gap-10 flex flex-col xl:flex-row'>
           <div>
             <p>Após a revolução industrial ocorrida no séc. XVIII, os níveis de produção de mercadorias aumentaram e, consequentemente, os níveis de consumo também. Isso ocorreu devido a mecanização das indústrias, ou seja, devido a substituição do uso de ferramentas manuais por máquinas. Essa substituição possibilitou a produção de maiores quantidades de mercadorias em um curto espaço de tempo e, também, contribuiu para um rápido crescimento nas taxas de consumo, fruto dos baixos preços oferecidos nas mercadorias.</p>
             <p>Diante disso Estima-se que 80% do lixo marinho tenha origem em terra, chegando aos oceanos por meio dos cursos d'água, o que indica uma necessidade de melhores gestões dos recursos hídricos e dos resíduos sólidos.</p>
+            <Link to="/solucao" className="font-mono text-lg py-2 px-4 rounded-full border-1 border-black w-full text-center mt-6 xl:w-[400px] block">Nossa Proposta de Solução</Link>
           </div>
-          
-            <img className='w-[500px] h-[300px] md:w-full' src="../../../img/lancamento-esgoto.jpg" alt="cano_depositando_residuo" />
+            <img className='h-[330px] md:w-full object-contain' src="../../../img/mar_de_plastico.jpg" alt="cano_depositando_residuo" />
         </div>
-        
+      </section>
+      <section className='mx-auto px-4 py-4 max-w-screen-xl'>
+      <div className='text-2xl mb-4'>
+          <h2>O Problema de lixo marinho</h2>
+        </div>
+        <p>O lixo marinho é composto por materiais sólidos fabricados ou transformados (plásticos, filtros de cigarros, vidro, metal e madeira) que são jogados no ambiente marinho, constituindo grave ameaça à saúde dos nossos mares, rios e lagos, mas também à nossa economia e à sociedade. Nesse cenário, os plásticos são o principal detrito encontrado no ambiente marinho. Ao contrário dos materiais orgânicos, os plásticos concentram-se nos oceanos e podem levar 500 anos para se decomporem. Afetam diretamente a fauna marinha, pois são confundidos com alimentos e ingeridos pelos animais, causando sua morte e contaminando cadeias alimentares, com sérios impactos na saúde dos seres humanos.</p>
+        <p>Segundo o site G1 Pesquisadores holandeses conseguiram detectar, pela primeira vez, fragmentos de plástico no sangue de seres humanos. Eles analisaram amostras de 22 pessoas. De tão pequenas, as partículas não podem ser vistas nem no microscópio. Os cientistas precisaram de uma máquina especial para transformá-las em gás. Um computador identificou a presença do plástico. Os tipos encontrados são principalmente aqueles usados nas garrafas pet, em embalagens de alimentos e em sacolas plásticas.</p>
       </section>
       </div>
         </div>
