@@ -15,7 +15,7 @@ const Solucao = () => {
       <div className='relative h-[85vh]'>
         <div className='absolute inset-0 bg-image bg-cover backdrop-blur-2xl'></div>
         <div className='relative z-10 flex items-center justify-center h-full'>
-          <h1 className='text-white text-4xl uppercase bold'>Solucao</h1>
+          <h1 className='titulo'>Solucao</h1>
         </div>
       </div>
 
