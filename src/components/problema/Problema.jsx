@@ -22,7 +22,7 @@ const Problema = () => {
 
       <section className='mx-auto px-4 py-4 max-w-screen-xl'>
         <div className='text-2xl mb-4'>
-          <h2>O Que É Lixo No Mar?</h2>
+          <h2 className='text-5xl mb-3 uppercase'>O Que É Lixo No Mar?</h2>
         </div>
         <p>
           Segundo o Ministério do Meio Ambiente, o lixo no mar é todo aquele
@@ -44,7 +44,7 @@ const Problema = () => {
       </section>
       <section className='mx-auto px-4 py-4 max-w-screen-xl'>
         <div>
-          <h2 className='text-3xl mb-4'>Para onde o lixo vai?</h2>
+          <h2 className='text-3xl mb-3 uppercase'>Para onde o lixo vai?</h2>
         </div>
         <p>
           Através da dispersão por ventos e chuvas, o resíduo produzido e mal
