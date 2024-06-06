@@ -1,9 +1,12 @@
+import React from 'react'
+import Grupo from '../grupo/Grupo'
 import { Card, CardHeader, Image } from '@nextui-org/react';
 import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
 
-export default function App() {
+export default function Home() {
   return (
+    <>
     <div className='  gap-1 grid grid-cols-12 grid-rows-none px-0'>
       <Helmet>
         <title>Global Solution - OCEAN</title>
@@ -86,5 +89,7 @@ export default function App() {
         </Link>
       </Card>
     </div>
-  );
+      <Grupo />
+    </>
+  )
 }
