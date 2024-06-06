@@ -10,7 +10,7 @@ import Problema from './components/problema/Problema';
 import Solucao from './routes/solucao/Solucao';
 import Home from './routes/Home';
 import Estudos from './routes/Estudos';
-import Desafio from './components/desafio/Desafio'
+import Desafio from './routes/desafio/Desafio'
 
 
 const router = createBrowserRouter([
@@ -31,6 +31,11 @@ const router = createBrowserRouter([
     {
       path: '/problema',
       element: <Problema />,
+      errorElement: <ErrorPage />,
+    },
+    {
+      path: '/desafio',
+      element: <Desafio />,
       errorElement: <ErrorPage />,
     },
     {

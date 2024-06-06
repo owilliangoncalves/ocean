@@ -22,7 +22,7 @@ export default function NavBar() {
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link to=''>
+          <Link to='/desafio'>
             <a
               className='text-verdeSecundario p-2 rounded-md hover:bg-verdePrimario transition duration-300 uppercase '
               href=''
