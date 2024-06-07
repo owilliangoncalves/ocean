@@ -15,9 +15,9 @@ const Desafio = () => {
       </Helmet>
       <Card radius='none'>
         <CardHeader className='p-0'>
-          <div className='bg-img'>
+          <div className='relative  h-[85vh] w-full'>
             <div className='absolute inset-0 bg-image0 bg-cover backdrop-blur-2xl'></div>
-            <div className='preH'>
+            <div className='relative z-1 flex items-center justify-center h-full'>
               <h1 className='titulo'>Desafio</h1>
             </div>
           </div>
@@ -87,7 +87,7 @@ const Desafio = () => {
               </p>
               <Link
                 to='/solucao'
-                className=' text-lg py-2 px-4 rounded-full border-1 border-black text-center  hover:bg-verdePrimario hover:border-verdePrimario place-self-center uppercase'
+                className=' text-lg mt-10 py-2 px-4 rounded-full border-1 border-black text-center  hover:bg-verdePrimario hover:border-verdePrimario place-self-center uppercase'
               >
                 veja Nossa Proposta de Solução
               </Link>
