@@ -13,6 +13,7 @@ export default {
         image1: "url('/img/problema.jpg')",
         image2: "url('/img/turtle.jpg')",
         image3: "url('/img/solucao.jpg')",
+        image4: "url('/img/referencias.jpg')",
       },
     },
     colors: {
