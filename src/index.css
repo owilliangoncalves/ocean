@@ -20,7 +20,9 @@
 .card {
   @apply col-span-12 md:col-span-4;
 }
-
+.cardHeader {
+  @apply absolute z-10 top-1 flex-col !items-start;
+}
 .tituloCardHeader {
   @apply text-tiny text-white/60 uppercase font-bold mb-1;
 }
