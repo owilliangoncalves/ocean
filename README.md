@@ -1,6 +1,5 @@
 [JAVASCRIPT__BADGE]: https://img.shields.io/badge/Javascript-000?style=for-the-badge&logo=javascript
 [REACT__BADGE]: https://img.shields.io/badge/React-005CFE?style=for-the-badge&logo=react
-[PROJECT__URL]: https://raapp1.netlify.app/
 
 <h1 align="center" style="font-weight: bold;">Global Solution - OCEAN 💻</h1>
 
@@ -23,8 +22,6 @@
 <h2 id="about">📌 Sobre</h2>
 
 OCEAN - Projeto de Conscientização e Combate à Poluição Marinha com Azure IA e Machine Learning
-
-[![project][PROJECT__BADGE]][PROJECT__URL]
 
 <h2 id="started">🚀 Como usar</h2>
 

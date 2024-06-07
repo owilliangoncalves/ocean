@@ -2,7 +2,7 @@ import { Card, CardBody, Image } from '@nextui-org/react';
 
 const Footer = () => {
   return (
-    <Card className='flex shadow-none border-none ' radius='none'>
+    <Card className='flex shadow-none border-none pt-20 ' radius='none'>
       <CardBody className=' shadow-none border-none flex-row grid grid-cols-4 sm:gap-y-20 gap-x-8 justify-self-center'>
         <Image src='/img/rede-oceano-limpo-logo.svg' />
         <Image src='/img/aws-partner-logo.svg' alt='' />

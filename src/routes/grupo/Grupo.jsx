@@ -4,7 +4,7 @@ const Grupo = () => {
   return (
     <div className='col-span-12 md:col-span-12 '>
       <Card radius='none'>
-        <CardBody className=''>
+        <CardBody className='pt-20'>
           <h1 className='uppercase mb-4 titulo text-verdeSecundario'>
             Grupo nemo
           </h1>
