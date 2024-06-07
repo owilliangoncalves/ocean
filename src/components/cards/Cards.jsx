@@ -13,6 +13,7 @@ const Cards = () => {
         </CardHeader>
         <Link to={'/desafio'}>
           <Image
+            isZoomed
             removeWrapper
             radius='none'
             alt='Pessoas segurando papeis'
@@ -31,6 +32,7 @@ const Cards = () => {
         </CardHeader>
         <Link to={'/estudos'}>
           <Image
+            isZoomed
             removeWrapper
             radius='none'
             alt='Pessoas segurando papeis'
@@ -48,6 +50,7 @@ const Cards = () => {
         </CardHeader>
         <Link to={'/problema'}>
           <Image
+            isZoomed
             removeWrapper
             radius='none'
             alt='Garbage Background'
@@ -66,6 +69,7 @@ const Cards = () => {
         </CardHeader>
         <Link to={'/solucao'}>
           <Image
+            isZoomed
             removeWrapper
             radius='none'
             alt='Garbage Background'
