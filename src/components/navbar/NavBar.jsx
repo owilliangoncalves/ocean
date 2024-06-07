@@ -18,8 +18,9 @@ export default function NavBar() {
       <NavbarContent className='hidden sm:flex gap-4' justify='center'>
         <NavbarItem>
           <Link to='/'>
+            {/*adicionar link dentro do to*/}
             <a className='text-verdeSecundario p-2 hover:bg-verdePrimario transition duration-300 active:bg-verdePrimario uppercase'>
-              Home
+              Vídeo Pitch
             </a>
           </Link>
         </NavbarItem>

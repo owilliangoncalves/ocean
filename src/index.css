@@ -15,6 +15,10 @@
 .bg-image3 {
   @apply bg-image2;
 }
+
+.bg-image4 {
+  @apply bg-image2;
+}
 .titulo {
   @apply text-white  text-6xl uppercase font-bold tracking-widest;
 }
