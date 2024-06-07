@@ -4,46 +4,41 @@ import { NextUIProvider } from '@nextui-org/react';
 import App from './App';
 import './index.css';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
-import ErrorPage from './routes/errorPage/ErrorPage';
-import Problema from './components/problema/Problema';
+import Desafio from './routes/desafio/Desafio.jsx';
+import ErrorPage from './routes/errorPage/ErrorPage.jsx';
+import Problema from './routes/problema/Problema.jsx';
 
-import Solucao from './routes/solucao/Solucao';
-import Home from './routes/Home';
-import Estudos from './routes/Estudos';
-import Desafio from './routes/desafio/Desafio'
-
+import Solucao from './routes/solucao/Solucao.jsx';
+import Home from './Home.jsx';
+import Estudos from './routes/Estudos.jsx';
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <App />,
     errorElement: <ErrorPage />,
-    children: [{
-      path: '/',
-      element: <Home />,
-      errorElement: <ErrorPage />,
-    },
-    {
-      path: '/estudos',
-      element: <Estudos />,
-      errorElement: <ErrorPage />,
-    },
-    {
-      path: '/problema',
-      element: <Problema />,
-      errorElement: <ErrorPage />,
-    },
-    {
-      path: '/desafio',
-      element: <Desafio />,
-      errorElement: <ErrorPage />,
-    },
-    {
-      path: '/solucao',
-      element: <Solucao />,
-      errorElement: <ErrorPage />,
-    },]
-
+    children: [
+      {
+        path: '/',
+        element: <Home />,
+      },
+      {
+        path: '/estudos',
+        element: <Estudos />,
+      },
+      {
+        path: '/problema',
+        element: <Problema />,
+      },
+      {
+        path: '/desafio',
+        element: <Desafio />,
+      },
+      {
+        path: '/solucao',
+        element: <Solucao />,
+      },
+    ],
   },
 ]);
 

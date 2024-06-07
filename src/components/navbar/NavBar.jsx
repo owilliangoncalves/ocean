@@ -11,7 +11,9 @@ export default function NavBar() {
   return (
     <Navbar shouldHideOnScroll className='bg-transparent'>
       <NavbarBrand>
-        <img src={FiapLogo} alt='' />
+        <Link to={'/'}>
+          <img src={FiapLogo} alt='' />
+        </Link>
       </NavbarBrand>
       <NavbarContent className='hidden sm:flex gap-4' justify='center'>
         <NavbarItem>
@@ -22,43 +24,36 @@ export default function NavBar() {
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link to='/desafio'>
-            <a
-              className='text-verdeSecundario p-2 rounded-md hover:bg-verdePrimario transition duration-300 uppercase '
-              href=''
-            >
-              Desafio
-            </a>
+          <Link
+            to='/desafio'
+            className='text-verdeSecundario p-2 rounded-md hover:bg-verdePrimario transition duration-300 uppercase'
+          >
+            Desafio
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link to='/estudos'>
-            <a
-              className='text-verdeSecundario p-2 rounded-md hover:bg-verdePrimario transition duration-300 uppercase '
-              href=''
-            >
-              Estudos
-            </a>
+          <Link
+            to='/problema'
+            className='text-verdeSecundario p-2 rounded-md hover:bg-verdePrimario transition duration-300 uppercase'
+          >
+            Problema
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link to='/problema'>
-            <a
-              className='text-verdeSecundario p-2 rounded-md hover:bg-verdePrimario transition duration-300 uppercase'
-              href=''
-            >
-              Problema
-            </a>
+          <Link
+            to='/estudos'
+            className='text-verdeSecundario p-2 rounded-md hover:bg-verdePrimario transition duration-300 uppercase '
+          >
+            Estudos
           </Link>
         </NavbarItem>
+
         <NavbarItem>
-          <Link to='/solucao'>
-            <a
-              className='text-verdeSecundario p-2 rounded-md hover:bg-verdePrimario transition duration-300 uppercase'
-              href=''
-            >
-              Solução
-            </a>
+          <Link
+            to='/solucao'
+            className='text-verdeSecundario p-2 rounded-md hover:bg-verdePrimario transition duration-300 uppercase'
+          >
+            Solução
           </Link>
         </NavbarItem>
       </NavbarContent>

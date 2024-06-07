@@ -1,10 +1,9 @@
-import { Card, CardBody, CardHeader, Image } from '@nextui-org/react';
+import { Card, CardBody, Image } from '@nextui-org/react';
 
 const Footer = () => {
   return (
-    <Card>
-      <CardHeader className='text-7xl'> Parceiros</CardHeader>
-      <CardBody className='container sm:flex'>
+    <Card className='flex shadow-none border-none ' radius='none'>
+      <CardBody className=' shadow-none border-none flex-row'>
         <Image src='/img/rede-oceano-limpo-logo.svg' />
         <Image src='/img/aws-partner-logo.svg' alt='' />
         <Image src='/img/softtek-logo.svg' alt='' />
