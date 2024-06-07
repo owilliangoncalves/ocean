@@ -15,9 +15,9 @@ const Desafio = () => {
       </Helmet>
       <Card radius='none'>
         <CardHeader className='p-0'>
-          <div className='bg-img'>
+          <div className='relative  h-[85vh] w-full'>
             <div className='absolute inset-0 bg-image0 bg-cover backdrop-blur-2xl'></div>
-            <div className='preH'>
+            <div className='relative z-1 flex items-center justify-center h-full'>
               <h1 className='titulo'>Desafio</h1>
             </div>
           </div>
