@@ -18,7 +18,7 @@ export default function NavBar() {
       <NavbarContent className='hidden sm:flex gap-4' justify='center'>
         <NavbarItem>
           <Link to='/'>
-            <a className='text-verdeSecundario p-2 rounded-md hover:bg-verdePrimario transition duration-300 active:bg-verdePrimario uppercase'>
+            <a className='text-verdeSecundario p-2 hover:bg-verdePrimario transition duration-300 active:bg-verdePrimario uppercase'>
               Home
             </a>
           </Link>
@@ -26,7 +26,7 @@ export default function NavBar() {
         <NavbarItem>
           <Link
             to='/desafio'
-            className='text-verdeSecundario p-2 rounded-md hover:bg-verdePrimario transition duration-300 uppercase'
+            className='text-verdeSecundario p-2 hover:bg-verdePrimario transition duration-300 uppercase'
           >
             Desafio
           </Link>
@@ -34,7 +34,7 @@ export default function NavBar() {
         <NavbarItem>
           <Link
             to='/problema'
-            className='text-verdeSecundario p-2 rounded-md hover:bg-verdePrimario transition duration-300 uppercase'
+            className='text-verdeSecundario p-2 hover:bg-verdePrimario transition duration-300 uppercase'
           >
             Problema
           </Link>
@@ -42,7 +42,7 @@ export default function NavBar() {
         <NavbarItem>
           <Link
             to='/estudos'
-            className='text-verdeSecundario p-2 rounded-md hover:bg-verdePrimario transition duration-300 uppercase '
+            className='text-verdeSecundario p-2 hover:bg-verdePrimario transition duration-300 uppercase '
           >
             Estudos
           </Link>
@@ -51,7 +51,7 @@ export default function NavBar() {
         <NavbarItem>
           <Link
             to='/solucao'
-            className='text-verdeSecundario p-2 rounded-md hover:bg-verdePrimario transition duration-300 uppercase'
+            className='text-verdeSecundario p-2 hover:bg-verdePrimario transition duration-300 uppercase'
           >
             Solução
           </Link>
