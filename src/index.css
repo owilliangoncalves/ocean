@@ -14,6 +14,18 @@
 .titulo {
   @apply text-white text-6xl uppercase font-light tracking-widest;
 }
+.preCard {
+  @apply gap-1 grid grid-cols-12 grid-rows-none px-0;
+}
+.card {
+  @apply col-span-12 md:col-span-4;
+}
+.cardHeader {
+  @apply absolute z-10 top-1 flex-col !items-start;
+}
+.tituloCardHeader {
+  @apply text-tiny text-white/60 uppercase font-bold mb-1;
+}
 
 @tailwind components;
 @tailwind utilities;

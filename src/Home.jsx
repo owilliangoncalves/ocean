@@ -1,0 +1,88 @@
+import Grupo from './routes/grupo/Grupo.jsx';
+import { Card, CardHeader, Image } from '@nextui-org/react';
+import { Helmet } from 'react-helmet';
+import { Link } from 'react-router-dom';
+
+export default function Home() {
+  return (
+    <>
+      <Helmet>
+        <title>Global Solution - OCEAN</title>
+        <meta name='descricao' content='Página inicial da Global Solution' />
+      </Helmet>
+      <div className='preCard'>
+        <Card className='card' radius='none'>
+          <CardHeader className='cardHeader'>
+            <p className='tituloCardHeader'>Desafio</p>
+            <h4 className='text-white font-medium text-large'>
+              Veja o desafio proposto
+            </h4>
+          </CardHeader>
+          <Link to={'/desafio'}>
+            <Image
+              removeWrapper
+              radius='none'
+              alt='Pessoas segurando papeis'
+              className='z-0 w-full h-full object-cover'
+              src='/img/turtle.jpg'
+            />
+          </Link>
+        </Card>
+
+        <Card className='card' radius='none'>
+          <CardHeader className='cardHeader'>
+            <p className='tituloCardHeader'>Estudos</p>
+            <h4 className='text-white font-medium text-large'>
+              Veja as referências
+            </h4>
+          </CardHeader>
+          <Link to={'/estudos'}>
+            <Image
+              removeWrapper
+              radius='none'
+              alt='Pessoas segurando papeis'
+              className='z-0 w-full h-full object-cover'
+              src='/img/referencias.jpg'
+            />
+          </Link>
+        </Card>
+        <Card className='card' radius='none'>
+          <CardHeader className='cardHeader'>
+            <p className='tituloCardHeader'>Problema</p>
+            <h4 className='text-white font-medium text-large'>
+              Entenda mais um pouco o problema
+            </h4>
+          </CardHeader>
+          <Link to={'/problema'}>
+            <Image
+              removeWrapper
+              radius='none'
+              alt='Garbage Background'
+              className='z-0 w-full h-full object-cover'
+              src='/img/problema.jpg'
+            />
+          </Link>
+        </Card>
+
+        <Card className='col-span-12 md:col-span-12 md:h-[600px]' radius='none'>
+          <CardHeader className='cardHeader'>
+            <p className='tituloCardHeader'>Solução</p>
+            <h4 className='text-white font-medium text-large'>
+              Entenda mais um pouco da solução proposta
+            </h4>
+          </CardHeader>
+          <Link to={'/solucao'}>
+            <Image
+              removeWrapper
+              radius='none'
+              alt='Garbage Background'
+              className='z-0 w-full h-full object-cover'
+              src='/img/solucao.jpg'
+            />
+          </Link>
+        </Card>
+      </div>
+      <Grupo />
+    </>
+  );
+}

@@ -1,73 +1,52 @@
-import { Card, CardHeader, Image } from '@nextui-org/react';
+import { Card, CardBody, Image } from '@nextui-org/react';
 
 const Grupo = () => {
   return (
-    <div className='gap-1 grid grid-cols-12 grid-rows-none px-0'>
-      <Card className='col-span-12 sm:col-span-6 h-[300px]' radius='none'>
-        <CardHeader className='absolute z-10 top-1 flex-col !items-start'>
-          <p className='text-tiny text-white/60 uppercase font-bold'>Estudos</p>
-          <h4 className='text-white font-medium text-large'>
-            Veja as referências
-          </h4>
-        </CardHeader>
-
-        <Image
-          removeWrapper
-          radius='none'
-          alt='Pessoas segurando papeis'
-          className='z-0 w-full h-full object-cover'
-          src='/img/referencias.jpg'
-        />
-      </Card>
-      <Card className='col-span-12 sm:col-span-6 h-[300px]' radius='none'>
-        <CardHeader className='absolute z-10 top-1 flex-col !items-start'>
-          <p className='text-tiny text-white/60 uppercase font-bold'>Estudos</p>
-          <h4 className='text-white font-medium text-large'>
-            Veja as referências
-          </h4>
-        </CardHeader>
-
-        <Image
-          removeWrapper
-          radius='none'
-          alt='Pessoas segurando papeis'
-          className='z-0 w-full h-full object-cover'
-          src='/img/referencias.jpg'
-        />
-      </Card>
-      <Card className='col-span-12 sm:col-span-6 h-[300px]' radius='none'>
-        <CardHeader className='absolute z-10 top-1 flex-col !items-start'>
-          <p className='text-tiny text-white/60 uppercase font-bold'>Estudos</p>
-          <h4 className='text-white font-medium text-large'>
-            Veja as referências
-          </h4>
-        </CardHeader>
-
-        <Image
-          removeWrapper
-          radius='none'
-          alt='Pessoas segurando papeis'
-          className='z-0 w-full h-full object-cover'
-          src='/img/referencias.jpg'
-        />
-      </Card>
-      <Card className='col-span-12 sm:col-span-6 h-[300px]' radius='none'>
-        <CardHeader className='absolute z-10 top-1 flex-col !items-start'>
-          <p className='text-tiny text-white/60 uppercase font-bold'>
-            Willian Gonçalves
-          </p>
-          <h4 className='text-white font-medium text-large object-right'>
-            Grupo NEMO
-          </h4>
-        </CardHeader>
-
-        <Image
-          removeWrapper
-          radius='none'
-          alt='Integrante Willian'
-          className='z-0 w-full h-full object-contain object-left'
-          src='https://avatars.githubusercontent.com/u/118922633?v=4'
-        />
+    <div className='col-span-12 sm:col-span-4 '>
+      <Card radius='none'>
+        <CardBody className=''>
+          <h1 className='uppercase mb-4 titulo text-verdeSecundario'>
+            Grupo nemo
+          </h1>
+          <div className='flex gap-4'>
+            <div className=''>
+              <Image
+                radius='none'
+                src='https://avatars.githubusercontent.com/u/123277481?v=4'
+                alt=''
+              />
+              <p> Guilherme Nunes</p>
+              <p>RM: 554327</p>
+            </div>
+            <div>
+              <Image
+                radius='none'
+                src='https://avatars.githubusercontent.com/u/121178343?v=4'
+                alt=''
+              />
+              <p> Pedro Ernesto</p>
+              <p>RM: 553679</p>
+            </div>
+            <div>
+              <Image
+                radius='none'
+                src='https://avatars.githubusercontent.com/u/135673275?v=4'
+                alt=''
+              />
+              <p>Lucas Henrique</p>
+              <p>RM: 552726</p>
+            </div>
+            <div>
+              <Image
+                radius='none'
+                src='https://avatars.githubusercontent.com/u/118922633?v=4'
+                alt=''
+              />
+              <p>Willian Gonçalves</p>
+              <p>RM: 553417</p>
+            </div>
+          </div>
+        </CardBody>
       </Card>
     </div>
   );

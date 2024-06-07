@@ -1,5 +1,5 @@
 import { Helmet } from 'react-helmet';
-import NavBar from '../navbar/NavBar';
+
 // import {Image} from "@nextui-org/image";
 import './Problema.css';
 
