@@ -87,7 +87,7 @@ const Desafio = () => {
               </p>
               <Link
                 to='/solucao'
-                className=' text-lg py-2 px-4 rounded-full border-1 border-black text-center  hover:bg-verdePrimario hover:border-verdePrimario place-self-center uppercase'
+                className=' text-lg mt-10 py-2 px-4 rounded-full border-1 border-black text-center  hover:bg-verdePrimario hover:border-verdePrimario place-self-center uppercase'
               >
                 veja Nossa Proposta de Solução
               </Link>
