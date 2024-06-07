@@ -1,11 +1,11 @@
-import { Card } from '@nextui-org/react';
+import { Card, CardBody, CardHeader, Image } from '@nextui-org/react';
 import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
 // import {Image} from "@nextui-org/image";
 
 const Desafio = () => {
   return (
-    <div>
+    <>
       <Helmet>
         <title>OCEAN - Desafio</title>
         <meta
@@ -14,27 +14,29 @@ const Desafio = () => {
         />
       </Helmet>
       <Card radius='none'>
-        <div className='relative h-[85vh]'>
-          <div className='absolute inset-0 bg-image0 bg-cover backdrop-blur-2xl'></div>
-          <div className='relative z-10 flex items-center justify-center h-full'>
-            <h1 className='titulo'>Desafio</h1>
+        <CardHeader className='p-0'>
+          <div className='relative  h-[85vh] w-full'>
+            <div className='absolute inset-0 bg-image0 bg-cover backdrop-blur-2xl'></div>
+            <div className='relative z-1 flex items-center justify-center h-full'>
+              <h1 className='titulo'>Desafio</h1>
+            </div>
+          </div>
+        </CardHeader>
+
+        <CardBody>
+          <div>
+            <h2 className='text-5xl pt-3 mb-3 uppercase'>oceanos</h2>
           </div>
 
-          <section className='mx-auto px-4 py-4 max-w-screen-xl'>
-            <div>
-              <h2 className='text-5xl mb-3 uppercase'>Papel dos oceanos</h2>
-            </div>
+          <div className='container'>
             <p>
-              Desde o início da nossa história, os oceanos possuem papel de
-              destaque na vida humana.
-            </p>
-
-            <p>
-              Há muito tempo, os oceanos já nos possibilitavam navegar entre
-              países e continentes para descobrir novas terras e realizar a
-              troca de mercadorias. Além disso, sempre foram fontes de alimento
-              para a humanidade, pois já nos forneciam inúmeras espécies de
-              peixes e demais frutos do mar para alimentação.
+              <span className='ml-10'>Desde</span> o início da nossa história,
+              os oceanos possuem papel de destaque na vida humana. Há muito
+              tempo, os oceanos já nos possibilitavam navegar entre países e
+              continentes para descobrir novas terras e realizar a troca de
+              mercadorias. Além disso, sempre foram fontes de alimento para a
+              humanidade, pois já nos forneciam inúmeras espécies de peixes e
+              demais frutos do mar para alimentação.
             </p>
 
             <p>
@@ -56,53 +58,55 @@ const Desafio = () => {
               oceanos representou 19% do Produto Interno Bruto (PIB) do Brasil
               em 2015.
             </p>
-          </section>
+          </div>
+        </CardBody>
 
-          <section className='mx-auto px-4 py-4 max-w-screen-xl'>
-            <div className='text-2xl mb-4'>
-              <h2 className='text-3xl mb-3 uppercase'>
-                O Contexto Pós-revolução Industrial
-              </h2>
+        <CardBody>
+          <div>
+            <h2 className='text-3xl  mb-3 uppercase'>
+              O Contexto Pós-revolução Industrial
+            </h2>
+          </div>
+
+          <div className='container grid grid-cols-2 gap-3'>
+            <div className='flex flex-col'>
+              <p>
+                <span className='ml-10'>Após</span> a revolução industrial
+                ocorrida no séc. XVIII, os níveis de produção de mercadorias
+                aumentaram e, consequentemente, os níveis de consumo também.
+                Isso ocorreu devido a mecanização das indústrias, ou seja,
+                devido a substituição do uso de ferramentas manuais por
+                máquinas. Essa substituição possibilitou a produção de maiores
+                quantidades de mercadorias em um curto espaço de tempo e,
+                também, contribuiu para um rápido crescimento nas taxas de
+                consumo, fruto dos baixos preços oferecidos nas mercadorias.
+                Diante disso Estima-se que 80% do lixo marinho tenha origem em
+                terra, chegando aos oceanos por meio dos cursos d'água, o que
+                indica uma necessidade de melhores gestões dos recursos hídricos
+                e dos resíduos sólidos.
+              </p>
+              <Link
+                to='/solucao'
+                className=' text-lg py-2 px-4 rounded-full border-1 border-black text-center  hover:bg-verdePrimario hover:border-verdePrimario place-self-center uppercase'
+              >
+                veja Nossa Proposta de Solução
+              </Link>
             </div>
-            <div className='gap-10 flex flex-col xl:flex-row'>
-              <div>
-                <p>
-                  Após a revolução industrial ocorrida no séc. XVIII, os níveis
-                  de produção de mercadorias aumentaram e, consequentemente, os
-                  níveis de consumo também. Isso ocorreu devido a mecanização
-                  das indústrias, ou seja, devido a substituição do uso de
-                  ferramentas manuais por máquinas. Essa substituição
-                  possibilitou a produção de maiores quantidades de mercadorias
-                  em um curto espaço de tempo e, também, contribuiu para um
-                  rápido crescimento nas taxas de consumo, fruto dos baixos
-                  preços oferecidos nas mercadorias.
-                </p>
-                <p>
-                  Diante disso Estima-se que 80% do lixo marinho tenha origem em
-                  terra, chegando aos oceanos por meio dos cursos d'água, o que
-                  indica uma necessidade de melhores gestões dos recursos
-                  hídricos e dos resíduos sólidos.
-                </p>
-                <Link
-                  to='/solucao'
-                  className=' text-lg py-2 px-4 rounded-full border-1 border-black w-full text-center mt-6 xl:w-[400px] block hover:bg-verdePrimario hover:border-verdePrimario'
-                >
-                  Nossa Proposta de Solução
-                </Link>
-              </div>
-              <img
-                className='h-[330px] md:w-full object-contain'
-                src='/img/mar_de_plastico.jpg'
-                alt='cano_depositando_residuo'
-              />
-            </div>
-          </section>
-          <section className='mx-auto px-4 py-4 max-w-screen-xl'>
-            <div className='text-2xl mb-4'>
-              <h2 className='text-3xl mb-3 uppercase'>
-                O Problema de lixo marinho
-              </h2>
-            </div>
+            <Image
+              radius='none'
+              className=' object-cover col-start-2 h-full w-full '
+              src='/img/mar_de_plastico.jpg'
+              alt=''
+            />
+          </div>
+        </CardBody>
+        <CardBody>
+          <div>
+            <h2 className='text-3xl  mb-3 uppercase'>
+              O Problema de lixo marinho
+            </h2>
+          </div>
+          <div className='container'>
             <p>
               O lixo marinho é composto por materiais sólidos fabricados ou
               transformados (plásticos, filtros de cigarros, vidro, metal e
@@ -126,10 +130,10 @@ const Desafio = () => {
               encontrados são principalmente aqueles usados nas garrafas pet, em
               embalagens de alimentos e em sacolas plásticas.
             </p>
-          </section>
-        </div>
+          </div>
+        </CardBody>
       </Card>
-    </div>
+    </>
   );
 };
 export default Desafio;
