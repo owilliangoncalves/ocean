@@ -1,7 +1,6 @@
 import { Card, CardBody, CardHeader, Image } from '@nextui-org/react';
 import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
-// import {Image} from "@nextui-org/image";
 
 const Desafio = () => {
   return (
@@ -88,7 +87,7 @@ const Desafio = () => {
             </div>
             <Link
               to='/solucao'
-              className=' text-lg md:mt-8 py-2 px-4 rounded-full border-1 border-black text-center  hover:bg-verdePrimario hover:border-verdePrimario place-self-center uppercase lg:col-start-1 '
+              className=' text-lg md:mt-8 py-2 px-4 border-1 border-black text-center  hover:bg-verdePrimario hover:border-verdePrimario place-self-center uppercase lg:col-start-1 '
             >
               veja Nossa Proposta de Solução
             </Link>
