@@ -95,7 +95,7 @@ const Desafio = () => {
             <Image
               radius='none'
               className=' object-cover col-start-2 h-full w-full '
-              src='/img/mar_de_plastico.jpg'
+              src='/img/graficoplastico.png'
               alt=''
             />
           </div>
@@ -130,6 +130,31 @@ const Desafio = () => {
               encontrados são principalmente aqueles usados nas garrafas pet, em
               embalagens de alimentos e em sacolas plásticas.
             </p>
+          </div>
+        </CardBody>
+        <CardBody>
+          <div>
+            <h2 className='text-3xl  mb-3 uppercase'>
+            micropartículas de plástico no sangue de seres humanos
+            </h2>
+          </div>
+          <div className='container'>
+            <p>
+              <a href="https://g1.globo.com/jornal-nacional/noticia/2022/04/25/pesquisa-encontra-pela-1a-vez-microparticulas-de-plastico-no-sangue-de-seres-humanos.ghtml">Pesquisadores holandeses conseguiram detectar,
+              pela primeira vez, fragmentos de plástico no sangue de seres
+              humanos.</a> Eles analisaram amostras de 22 pessoas. De tão pequenas,
+              as partículas não podem ser vistas nem no microscópio. Os
+              cientistas precisaram de uma máquina especial para transformá-las
+              em gás. Um computador identificou a presença do plástico. Os tipos
+              encontrados são principalmente aqueles usados nas garrafas pet, em
+              embalagens de alimentos e em sacolas plásticas.
+            </p>
+            <Image
+              radius='none'
+              className='place-self-center object-contains col-start-2 h-[500px] w-full '
+              src='/img/microplastico-sangue.jpg'
+              alt=''
+            />
           </div>
         </CardBody>
       </Card>
