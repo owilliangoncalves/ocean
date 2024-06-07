@@ -60,7 +60,10 @@ const Cards = () => {
         </Link>
       </Card>
 
-      <Card className='col-span-12 md:col-span-12 md:h-[600px]' radius='none'>
+      <Card
+        className='col-span-12 md:col-span-12 lg:h-[600px] md:h-[300px]'
+        radius='none'
+      >
         <CardHeader className='cardHeader'>
           <p className='tituloCardHeader'>Solução</p>
           <h4 className='text-white font-medium text-large'>
@@ -73,7 +76,7 @@ const Cards = () => {
             removeWrapper
             radius='none'
             alt='Garbage Background'
-            className='z-0 w-full h-full object-cover '
+            className='z-0 w-full h-full object-cover  '
             src='/img/solucao.jpg'
           />
         </Link>
