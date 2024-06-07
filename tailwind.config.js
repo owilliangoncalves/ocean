@@ -12,6 +12,8 @@ export default {
       backgroundImage: {
         image1: "url('/img/problema.jpg')",
         image2: "url('/img/turtle.jpg')",
+        image3: "url('/img/bg-img-estudos.jpg')",
+        image4: "url('/img/nemo.jpg')"
       },
     },
     colors: {

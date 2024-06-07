@@ -12,12 +12,12 @@ const Solucao = () => {
         />
       </Helmet>
       <div className='relative h-[85vh]'>
-        <div className='absolute inset-0 bg-image bg-cover backdrop-blur-2xl'></div>
+        <div className='absolute inset-0 bg-image4 bg-cover backdrop-blur-2xl'></div>
         <div className='relative z-10 flex items-center justify-center h-full'>
           <h1 className='titulo'>Solucao</h1>
         </div>
       </div>
-
+      <br/>
       <section className='mx-auto px-4 py-4 max-w-screen-xl'>
         <div className='text-2xl mb-4'>
           <h2>Solucao</h2>
@@ -32,8 +32,9 @@ const Solucao = () => {
           peso. De difícil decomposição, hoje em dia sabe-se que o plástico nos
           oceanos se fragmenta em diversos tamanhos menores. Essa fragmentação
           se dá pela influência do sol, dos movimentos das ondas e, também, da
-          ação de microrganismos.(MMA,2019;FURG,2019).
+          ação de microrganismos.
         </p>
+        <br/>
         <img
           src='../../../img/desembogue-de-rio.jpg'
           alt=''
@@ -57,9 +58,10 @@ const Solucao = () => {
           inadequados de resíduos oriundos das atividades de pesca, de
           embarcações de turismo e lazer e de plataformas de petróleo são os
           principais contribuintes marítimos da poluição dos
-          oceanos.(MMA,2019;FURG,2019).
+          oceanos.<br /> Fonte: MB MIL 2019 e FURG 2019.
         </p>
       </section>
+      <br />
     </div>
   );
 };

@@ -33,8 +33,9 @@ const Problema = () => {
           peso. De difícil decomposição, hoje em dia sabe-se que o plástico nos
           oceanos se fragmenta em diversos tamanhos menores. Essa fragmentação
           se dá pela influência do sol, dos movimentos das ondas e, também, da
-          ação de microrganismos.(MMA,2019;FURG,2019).
+          ação de microrganismos. 
         </p>
+        <br/>
         <img
           src='/img/desembogue-de-rio.jpg'
           alt=''
@@ -58,7 +59,7 @@ const Problema = () => {
           inadequados de resíduos oriundos das atividades de pesca, de
           embarcações de turismo e lazer e de plataformas de petróleo são os
           principais contribuintes marítimos da poluição dos
-          oceanos.(MMA,2019;FURG,2019).
+          oceanos.<br /> Fonte: MB MIL 2019 e FURG 2019.
         </p>
       </section>
     </div>
