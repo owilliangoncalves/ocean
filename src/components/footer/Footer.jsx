@@ -3,7 +3,7 @@ import { Card, CardBody, Image } from '@nextui-org/react';
 const Footer = () => {
   return (
     <Card
-      className='flex shadow-none border-none pt-20 bg-zinc-50'
+      className='flex shadow-none border-none md:pt-5 bg-zinc-50'
       radius='none'
     >
       <CardBody className=' shadow-none border-none flex-row grid grid-cols-4 sm:gap-y-20 gap-x-8 justify-self-center'>

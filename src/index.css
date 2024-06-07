@@ -27,5 +27,13 @@
   @apply text-tiny text-white/60 uppercase font-bold mb-1;
 }
 
+.preH {
+  @apply relative z-10 flex items-center justify-center h-full;
+}
+
+.bg-img {
+  @apply relative  h-[85vh] w-full;
+}
+
 @tailwind components;
 @tailwind utilities;
