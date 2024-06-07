@@ -2,7 +2,7 @@ import { Card, CardBody, Image } from '@nextui-org/react';
 
 const Grupo = () => {
   return (
-    <div className='col-span-12 sm:col-span-4 '>
+    <div className='col-span-12 md:col-span-12 '>
       <Card radius='none'>
         <CardBody className=''>
           <h1 className='uppercase mb-4 titulo text-verdeSecundario'>

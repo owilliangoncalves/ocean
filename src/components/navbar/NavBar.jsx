@@ -24,44 +24,36 @@ export default function NavBar() {
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link to='/desafio'>
-            <a
-              className='text-verdeSecundario p-2 rounded-md hover:bg-verdePrimario transition duration-300 uppercase '
-              href=''
-            >
-              Desafio
-            </a>
+          <Link
+            to='/desafio'
+            className='text-verdeSecundario p-2 rounded-md hover:bg-verdePrimario transition duration-300 uppercase'
+          >
+            Desafio
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link to='/problema'>
-            <a
-              className='text-verdeSecundario p-2 rounded-md hover:bg-verdePrimario transition duration-300 uppercase'
-              href=''
-            >
-              Problema
-            </a>
+          <Link
+            to='/problema'
+            className='text-verdeSecundario p-2 rounded-md hover:bg-verdePrimario transition duration-300 uppercase'
+          >
+            Problema
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link to='/estudos'>
-            <a
-              className='text-verdeSecundario p-2 rounded-md hover:bg-verdePrimario transition duration-300 uppercase '
-              href=''
-            >
-              Estudos
-            </a>
+          <Link
+            to='/estudos'
+            className='text-verdeSecundario p-2 rounded-md hover:bg-verdePrimario transition duration-300 uppercase '
+          >
+            Estudos
           </Link>
         </NavbarItem>
 
         <NavbarItem>
-          <Link to='/solucao'>
-            <a
-              className='text-verdeSecundario p-2 rounded-md hover:bg-verdePrimario transition duration-300 uppercase'
-              href=''
-            >
-              Solução
-            </a>
+          <Link
+            to='/solucao'
+            className='text-verdeSecundario p-2 rounded-md hover:bg-verdePrimario transition duration-300 uppercase'
+          >
+            Solução
           </Link>
         </NavbarItem>
       </NavbarContent>
