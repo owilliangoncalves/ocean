@@ -11,6 +11,10 @@
 .bg-image2 {
   filter: blur(2px);
 }
+
+.bg-image3 {
+  @apply bg-image2;
+}
 .titulo {
   @apply text-white  text-6xl uppercase font-bold tracking-widest;
 }
