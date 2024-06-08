@@ -17,7 +17,7 @@ export default function NavBar() {
       </NavbarBrand>
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
         <NavbarItem>
-          <Link to="https://youtu.be/PcSEBWAP77k " target="_blank">
+          <Link to="https://youtu.be/TmAkQvUTOwk " target="_blank">
             <a className="text-verdeSecundario p-2 hover:bg-verdePrimario transition duration-300 active:bg-verdePrimario uppercase">
               Vídeo Pitch
             </a>
