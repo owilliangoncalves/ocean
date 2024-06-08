@@ -22,7 +22,8 @@
 <h2 id="about">📌 Sobre</h2>
 
 OCEAN - Projeto de Conscientização e Combate à Poluição Marinha com Azure IA e Machine Learning
-Link Video video pitch - https://www.youtube.com/watch?v=PcSEBWAP77k
+Link Video video pitch - https://youtu.be/TmAkQvUTOwk
+Apresentação PDF - https://drive.google.com/drive/folders/13pZZFSVWBFA_-ie2vrTG47Cc7_26VxTc?usp=sharing
 
 <h2 id="started">🚀 Como usar</h2>
 
